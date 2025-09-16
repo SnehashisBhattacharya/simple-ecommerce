@@ -65,7 +65,7 @@ const AdminDashboard: React.FC = () => {
             <BarChart3 className="h-8 w-8 text-yellow-600 mr-3" />
             <div>
               <p className="text-sm text-gray-600">Revenue</p>
-              <p className="text-2xl font-bold text-gray-900">$12,345</p>
+              <p className="text-2xl font-bold text-gray-900">₹12,3450</p>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ const AdminDashboard: React.FC = () => {
             <span className="text-sm text-gray-500">4 hours ago</span>
           </div>
           <div className="flex justify-between items-center py-2">
-            <span>Order completed: $299.99</span>
+            <span>Order completed: ₹2999.99</span>
             <span className="text-sm text-gray-500">6 hours ago</span>
           </div>
         </div>
@@ -150,7 +150,7 @@ const AdminDashboard: React.FC = () => {
                     {product.category}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                    ${product.price}
+                    ₹{product.price}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                     {product.stock}
